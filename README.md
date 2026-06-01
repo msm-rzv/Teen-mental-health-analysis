@@ -47,7 +47,7 @@ This project analyses a dataset of **1,200 teenagers aged 13–19** to explore w
 ```
 ├── README.md
 ├── queries.sql                              # All SQL queries used in the analysis
-├── Teen_Mental_Health_Dataset_Realistic.csv # Dataset
+├── Teen_Mental_Health_Dataset_2026.csv      # Dataset
 └── Teen_Mental_Health_Case_Study_Final.pdf  # Full written report
 ```
 
@@ -89,7 +89,7 @@ COPY "teen_mental_health"(age, gender, daily_social_media_hours, platform_usage,
     sleep_hours, screen_time_before_sleep, academic_performance,
     physical_activity, social_interaction_level, stress_level,
     anxiety_level, addiction_level, depression_label)
-FROM '/your/path/Teen_Mental_Health_Dataset_Realistic.csv'
+FROM '/your/path/Teen_Mental_Health_Dataset_2026.csv'
 DELIMITER ','
 CSV HEADER;
 ```
@@ -144,4 +144,4 @@ The complete case study — including the data dictionary, all SQL queries with 
 
 ---
 
-*© 2026 Masooma Rizvi*
+*© 2025 Masooma Rizvi*
